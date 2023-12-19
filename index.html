@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert Notification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+      h1{
+        font-family: 'Poppns', sans-serif;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+      }
+      .btn{
+        background-color: rebeccapurple;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        display: flex;
+        margin-left: 45%;
+        margin-top: 10px;
+        cursor: pointer;   
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tap the button for alert notification</h1>
+    <button class="btn" onclick="callAlert()">Click</button>
+  </body>
+  <script src="app.js"></script>
+  <script>
+    function callAlert() {
+      alert(" Hi, Your Alert Notification Work..");
+    }
+  </script>
+</html>
